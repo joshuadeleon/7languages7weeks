@@ -8,12 +8,13 @@ if(nil, "\nNil is true" print, "\nNil is false" print)
 //  Define Thing object
 Thing := Object clone
 Thing name := "thing"
-Thing declare := method("\nMy name is " .. name print)
+Thing declare := method(("\nMy name is " .. name) print)
 
 
 // This tells what slots are supported in object Thing
-"\n" print
-Thing print
+"\r\n" print
+Thing slotSummary print
+"\r\n" print
 
 // Run method declare
-Thing declare print
+Thing declare
