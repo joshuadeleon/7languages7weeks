@@ -1,3 +1,5 @@
+//  Day 1 of Io Language
+
 // Is 0 true or false? Is empty string true or false? Is nil true or false?
 if(0, "\n0 is true" print, "\n0 is false")
 
@@ -18,3 +20,7 @@ Thing slotSummary print
 
 // Run method declare
 Thing declare
+
+//  ::= creates a setter method and assigns value to slot
+//  := creates a slot
+//  = assigns to an existing slot
