@@ -1,22 +1,21 @@
 //  Day 1 of Io Language
 
 // Is 0 true or false? Is empty string true or false? Is nil true or false?
-if(0, "\n0 is true" print, "\n0 is false")
+if(0, "0 is true" println, "0 is false" println)
 
-if("", "\nEmpty string is true" print, "\nEmpty string is false" print)
+if("", "Empty string is true" println, "Empty string is false" println)
 
-if(nil, "\nNil is true" print, "\nNil is false" print)
+if(nil, "Nil is true" println, "Nil is false" println)
 
 //  Define Thing object
 Thing := Object clone
 Thing name := "thing"
-Thing declare := method(("\nMy name is " .. name) print)
+Thing declare := method(("My name is " .. name) println)
 
 
 // This tells what slots are supported in object Thing
 "\r\n" print
-Thing slotSummary print
-"\r\n" print
+Thing slotSummary println
 
 // Run method declare
 Thing declare
