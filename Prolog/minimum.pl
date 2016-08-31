@@ -1,0 +1,1 @@
+minimum(X,Y) :- W is abs(X - Y, Z), div(X + Y - W, 2).
