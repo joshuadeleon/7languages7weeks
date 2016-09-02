@@ -1,6 +1,6 @@
-% Prolog Day 3 problem 1
+% Prolog Day 3 problem 1/2
 % Modify the Sudoku puzzle to work on 6x6 puzzles
-% and 9x9 puzzles. 
+% and 9x9 puzzles. Also print prettier solutions
 
 % I will only do 6x6 as 9x9 is the same idea and repetitive
 :- use_module(library(clpfd)).
