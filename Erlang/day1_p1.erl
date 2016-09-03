@@ -15,3 +15,5 @@ countWords([D|E]) -> countWords(E).
 
 % much much simpler to use built-in function string:words
 % very unsure how much of the language to use for this problem
+% tried to use as little as possible. I think there is a way to use 
+% only pattern matching
